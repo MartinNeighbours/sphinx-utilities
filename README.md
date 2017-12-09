@@ -29,7 +29,7 @@ Solution
 
 The utilitity automatically documents the API code, including new features:
 
-* add the copybutton, to remove/include the >>> from code examples (included in the conf.py file
+* add the copybutton, to remove/include the >>> from code examples (included in the conf.py file and copybutton.js in source/static)
 * a template based summary table for modules with the following features:
    * automates the creation of rst files - only for separate members
    * parameterised to set a minimum number of members for summary tables
