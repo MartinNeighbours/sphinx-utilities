@@ -86,7 +86,7 @@ It's also possible to alter the directives in the sphinx application which can b
 make.bat or makefile
 --------------------
 
-Make.bat (windows) and makefile (unix/Mac OS) do the same thing and simply run sphinx to generate outputs of different types (e.g. html/xml).  Both can be run with the relevant options from the command lines.  The build files will be generated in source/_build unless a different directory is specified in make.bat or makefile.
+Make.bat (windows) and makefile (unix/Mac OS) do the same thing and simply run sphinx to generate outputs of different types (e.g. html/xml) - it's crucial to keep these two files in sync if you want to allow users on different platforms to come up with their own ideas on how to document the api.  Both can be run with the relevant options from the command lines.  The build files will be generated in source/_build unless a different directory is specified in make.bat or makefile.
 
 Note that if you install sphinx into an environment, first use::
 
